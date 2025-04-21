@@ -4,6 +4,6 @@ def fibbonacci():
         yield a
         a, b = b , a + b
 fib = fibbonacci()
-for _ in range (10):
+for _ in range (10):git
     print (next(fib))
 
